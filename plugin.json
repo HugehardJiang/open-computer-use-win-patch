@@ -1,0 +1,18 @@
+{
+  "name": "open-computer-use-win-patch",
+  "displayName": "Open Computer Use Windows Patch",
+  "version": "1.0.0",
+  "description": "Non-invasive Windows speedup, Multi-HWND popup fusion, CEF anti-hang & visual overlay patch for open-computer-use MCP.",
+  "logo": "assets/logo.svg",
+  "author": {
+    "name": "HugehardJiang",
+    "url": "https://github.com/HugehardJiang"
+  },
+  "homepage": "https://github.com/HugehardJiang/open-computer-use-win-patch",
+  "repository": "https://github.com/HugehardJiang/open-computer-use-win-patch",
+  "suggestedPrompts": [
+    "一键安装并自检 open-computer-use Windows 增强补丁",
+    "检查 open-computer-use Windows 补丁健康状态",
+    "调整 open-computer-use 补丁的悬浮鼠标特效或应用别名配置"
+  ]
+}

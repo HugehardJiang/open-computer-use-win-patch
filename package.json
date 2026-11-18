@@ -1,0 +1,46 @@
+{
+  "name": "open-computer-use-win-patch",
+  "version": "1.0.0",
+  "description": "Non-invasive Windows speed, Multi-HWND popup-fusion, CEF anti-hang & visual-cursor patch for open-computer-use MCP — 1-click installable by any AI Agent",
+  "type": "module",
+  "license": "MIT",
+  "author": "HugehardJiang",
+  "os": [
+    "win32"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HugehardJiang/open-computer-use-win-patch.git"
+  },
+  "homepage": "https://github.com/HugehardJiang/open-computer-use-win-patch",
+  "keywords": [
+    "open-computer-use",
+    "mcp",
+    "windows",
+    "ui-automation",
+    "antigravity",
+    "claude-code",
+    "cursor",
+    "computer-use"
+  ],
+  "bin": {
+    "open-computer-use-win-patch": "./scripts/install.mjs"
+  },
+  "files": [
+    "patch/",
+    "scripts/",
+    "skills/",
+    "assets/",
+    "plugin.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "install-patch": "node ./scripts/install.mjs",
+    "doctor": "node ./scripts/install.mjs --doctor",
+    "uninstall-patch": "node ./scripts/install.mjs --uninstall"
+  }
+}

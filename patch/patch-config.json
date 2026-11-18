@@ -1,0 +1,27 @@
+{
+  "enableLaunchAppTool": true,
+  "autoLaunchOnAppNotFound": true,
+  "autoLaunchWaitMs": 8000,
+  "enableFocusWindowTool": true,
+  "autoRestoreMinimizedOnSnapshot": true,
+  "fixOccludedWindowScreenshots": true,
+  "enableGlobalPointerFallback": true,
+  "autoFocusBeforeGlobalInput": true,
+  "enableVisualOverlay": true,
+  "overlayIdleHideMs": 4500,
+  "overlayMaxAlpha": 96,
+  "enableFastNativeBridge": true,
+  "enableBatchActionsTool": true,
+  "maxScreenshotWidth": 1280,
+  "screenshotJpegQuality": 82,
+  "overlayClickLeadMs": 75,
+  "appAliases": {
+    "wps": "WPS Office",
+    "wps office": "WPS Office",
+    "文字": "WPS Office",
+    "记事本": "notepad.exe",
+    "计算器": "calc.exe",
+    "画图": "mspaint.exe",
+    "资源管理器": "explorer.exe"
+  }
+}
